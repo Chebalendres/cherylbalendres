@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>personal portfoli website Create</title>
+</head>
+<body>
+     <!-----start Hearder section----->
+     <div id="hearder">
+        <div class="contenier">
+            <nav >
+                <img src="image/logo.png" alt="logo" class="logo">
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text">
+                <h1>Hi !!!</h1>
+                <h1>I'm Ms. <span><B>Cheryl S.Balendres</B></span></h1>
+              </div>       
+            </div>
+            <div class="img-box">
+                <img src="./image/image3.jpg" class="man-img">
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="image/image2.jpg" >  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am hardworking woman and being flexible to do a certain task and never give up to reach my ambitions and goals in  life.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>As BSCS Student</span><br> Still study the computer programming </li>
+                        <li><span>Office Clerk</span><br> Prepared Financial Statements</li>
+                        <li><span>Beautician</span><br>make your hair beautiful and can do a make up for you</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2018 - Current </span><br>1 started to become a beautician</li>
+                        <li><span>2019 - current</span><br> I become a BSCS Students which is studied of programs aspiring to become a programmer</li>
+                        <li><span>2010-Current</span><br>I started to work at LGU Tungawan municipality at Accounting Office Department</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College Level</span><br>I studied at WMSU ESU IPIL took up courses of BSCS and presently at the 3rd year level</li>
+                                                        <li>I was undergraduate student of STII took up the course of IT-Information Technology</li>
+                                                        <li>I was BEED student of WMSU-ESU Tungawan rich up until 3rd year level but i shift to BSCS course because of having a conflict schedule with my work and studies</li>
+                        <li><span>Secondary Level</span><br> 1 graduated in DRMMC-Dr.Aurilio Mendoza Memorial Colleges</li>
+                        <li><span>Elementary Level</span><br>I graduated in Langon elementary School</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+      <!-----Service section Start----->
+     <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">My Services</h1>
+            <p>That's what we can do for you</p>
+            <div class="services-list">
+                <div>
+                    <img src="image/web.jpeg" >
+                    <h2>Web Design</h2>
+                    <p>We can create a Web design</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="image/salon.jpeg" >
+                    <h2>Beauty Parlor</h2>
+                    <p>I can Make you beautiful .</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="image/clerk.jpeg" >
+                    <h2>Office Clerk</h2>
+                    <p>I prepared a Finacial Statements</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My Portfolio</h1>
+                <p>Know me Better.</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/portfolio1.jpg" >
+                        <div class="layer">
+                            <h3>Seminars</h3>
+                            <p>During my Seminar of E-Budgeting in DBMI undergo a lots of training so that I can enhance my skills to become a better.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="image/work.jpg" >
+                        <div class="layer">
+                            <h3>Office</h3>
+                            <p>This is where am I duty during Office HoursIve been working for 12 years in service </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="image/parlor.jpg" >
+                        <div class="layer">
+                            <h3>Online Parlor Shop</h3>
+                            <p>I had a lot of clients that satisfied with my masterpiece</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href="#" class="btn">Learn More</a>
+
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>019632880</p>
+                        <div class="social-icons">
+                    </div>
+                        
+                        <a href="" class="btn btn2">Download CV</a>
+                        <a href="https://www.facebook.com/cheryl.sombreno"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="cherylbeauty29@g"><i class="Gmail"></i></a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+   
+          <!----Contact section End ----->
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+        
+      </script>
+
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

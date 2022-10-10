@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+     <!-----start Hearder section----->
+     <div id="hearder">
+        <div class="contenier">
+            <nav >
+                <img src="image/logo.png" alt="logo" class="logo">
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text">
+                <h1>Hi !!!</h1>
+                <h1>I'm Ms. <span><B>Cheryl S.Balendres</B></span></h1>
+              </div>       
+            </div>
+            <div class="img-box">
+                <img src="./image/image3.jpg" class="man-img">
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="image/image2.jpg" >  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I was born on April 28,1989 at Barangay Langon,Tungawan,Zamboanga Del Sur.</p>
+                    <p>I am the eldest of 7 siblings.</p>
+                    <p>I am a happy married woman luckily have a 2 kids.</p>
+                    <p>I am a BSCS-3 Student at WMSU-ESU IPIL,at the same time a LGU Employee of Municipality of Tungawan at Accountng Office Department.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Designer</span><br> Since a studied of computer programming I learned how to become a web designer</li>
+                        <li><span>Data Enoder</span><br>I undergo and attending a lot of government seminars on how to prepared a Financial Statements and other papers works</li>
+                        <li><span>Beautician</span><br>make your hair beautiful and can do a make over for you</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2018 - Current </span><br>1 started to become a beautician</li>
+                        <li><span>2019 - current</span><br> I become a BSCS Students which is studied of programs aspiring to become a programmer</li>
+                        <li><span>2010-Current</span><br>I started to work at LGU Tungawan municipality at Accounting Office Department</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College Level</span><br>I studied at WMSU ESU IPIL took up courses of BSCS and I'm 3rd Year now.</li>
+                                                        <li>I was undergraduate student of STII took up the course of IT-Information Technology</li>
+                                                        <li>I was BEED student of WMSU-ESU Tungawan rich up until 3rd year level but i shift to BSCS course because of having a conflict schedule with my work and studies</li>
+                        <li><span>Secondary Level</span><br> 1 graduated in DRMMC-Dr.Aurilio Mendoza Memorial Colleges</li>
+                        <li><span>Elementary Level</span><br>I graduated in Langon elementary School</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+      <!-----Service section Start----->
+     <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">My Services</h1>
+            <p>I offered you this following</p>
+            <div class="services-list">
+                <div>
+                    <img src="image/web.jpeg" >
+                    <h2>Web Designer</h2>
+                    <p>I can make a website design</p>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr">For more Info</a>
+                </div>
+                <div>
+                    <img src="image/salon.jpeg" >
+                    <h2>Beauty Parlor</h2>
+                    <p>I offered a home rebonding hair services .</p>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr">For More Info</a>
+                </div>
+                <div>
+                    <img src="image/clerk.jpeg" >
+                    <h2>Data Encoder</h2>
+                    <p>I can assist you to entry all certain datus in the computer</p>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr">For More Info</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My Portfolio</h1>
+                <p>Know me Better.</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/portfolio1.jpg" >
+                        <div class="layer">
+                            <h3>Seminars</h3>
+                            <p>During my Seminar of E-Budgeting in DBMI undergo a lots of training so that I can enhance my skills to become a better.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="image/work.jpg" >
+                        <div class="layer">
+                            <h3>Office</h3>
+                            <p>This is where am I duty during Office HoursIve been working for 12 years in service </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="image/parlor.jpg" >
+                        <div class="layer">
+                            <h3>Online Parlor Shop</h3>
+                            <p>I had a lot of clients that satisfied with my masterpiece</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href="#" class="btn">Learn More</a>
+
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Gmail Account:cherylbeauty29@gmail.com</p>
+                        <p><i class="fa-solid fa-paper-plane"></i>Facebook Account:Balendres Cheryl Sombreno</a></p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>Phone #:09353869807</p>
+                        <div class="social-icons">
+                    </div>  
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+   
+          <!----Contact section End ----->
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+        
+      </script>
+
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
